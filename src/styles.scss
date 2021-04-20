@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    // overflow: hidden;
+}
+
+h2 {
+    margin: 8px 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto';
+}
+
+.top-navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #168CE6;
+}
+
+.content-wrapper {
+    height: 100%;
+}
+
+.starting-page {
+    background: url('./assets/background.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 100px);
+}
+
+.nav-menu {
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+
+.nav-button {
+    background-color: white;
+    color: #168CE6;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+    border: 1px solid #168CE6 !important;
+    border-radius: 4px;
+}
+
+.mat-calendar-body-selected {
+    background-color: #168CE6;
+    color: white;
+}
+
+.mat-calendar-body-cell-content:hover {
+    background-color: white;
+    color: #168CE6;
+}
+
+.mat-calendar-body-cell-content:active {
+    background-color: #168CE6;
+    color: white;
+    filter: brightness(120%);
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+
+.nav-button:active {
+    filter: brightness(100%);
+    background-color: #168CE6;
+    color: white;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+.nav-button-active {
+    background-color: #168CE6 !important;
+    color: white !important;
+}
+
+.content {
+    padding: 16px;
+}
+
+.cdk-live-announcer-element {
+    display: none;
+}
+
+.mat-form-field-wrapper {
+    border: 1px solid #168CE6;
+    border-radius: 4px;
+}
+
+.mat-form-field-flex {
+    display: flex !important;
+    align-items: center !important;
+    padding: 8px !important;
+}
+
+.under-cont-element {
+    height: calc(100vh - 255px);
+    display: flex;
+    justify-content: center;
+}
+
+.background-title {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.divider {
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+}
+
+.grey-button {
+    color: white;
+    background-color: gray;
+}
+
+.orange-button {
+    color: white;
+    background-color: orange;
+}
+
+.mat-checkbox-inner-container {
+    height: 18px !important;
+}
+
+.billing-menu {
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+    width: 40%;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}

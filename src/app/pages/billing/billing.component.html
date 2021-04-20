@@ -1,0 +1,26 @@
+<div class="content fix-height">
+    <div class="nav-menu">
+        <button class="nav-button" mat-button (click)="navigatesToPage('planning')">Tervezés</button>
+        <button class="nav-button" mat-button (click)="navigatesToPage('contracts')">Szerződéskötés</button>
+        <button class="nav-button" mat-button (click)="navigatesToPage('movements')">Mozgások</button>
+        <button class="nav-button nav-button-active" mat-button (click)="navigatesToPage('billing')">Számlázás</button>
+        <button class="nav-button" mat-button (click)="navigatesToPage('controlling')">Kontrolling</button>
+    </div>
+    <h2>Számlázás</h2>
+    <div class="nav-menu">
+        <button class="nav-button" mat-button (click)="navigatesToPage('sap')">SAP</button>
+        <button class="nav-button" mat-button (click)="navigatesToPage('szamlazzponthu')">Számlázz.hu</button>
+        <button class="nav-button" mat-button (click)="navigatesToPage('custom-invoices')">Egyedi számlák</button>
+    </div>
+    <div class="checkbox-wrapper">
+        <input type="checkbox">
+        <label>már kiegyenlített</label>
+        <!-- <mat-checkbox>már kiegyenlített</mat-checkbox> -->
+    </div>
+    <div class="nav-menu">
+        <div class="billing-menu">
+            <button class="grey-button" mat-button>ELŐNÉZET</button>
+            <button class="orange-button" mat-button>ELKÉSZÍTEM A SZÁMLÁT</button>
+        </div>
+    </div>
+</div>

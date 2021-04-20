@@ -1,0 +1,15 @@
+<div class="starting-page content">
+  <div class="nav-menu">
+    <button class="nav-button" mat-button (click)="navigatesToPage('planning')">Tervezés</button>
+    <button class="nav-button" mat-button (click)="navigatesToPage('contracts')">Szerződéskötés</button>
+    <button class="nav-button nav-button-active" mat-button (click)="navigatesToPage('movements')">Mozgások</button>
+    <button class="nav-button" mat-button (click)="navigatesToPage('billing')">Számlázás</button>
+    <button class="nav-button" mat-button (click)="navigatesToPage('controlling')">Kontrolling</button>
+  </div>
+    <h2 class="background-title">Mozgások</h2>
+    <div class="nav-menu">
+      <button class="nav-button" mat-button (click)="navigatesToPage('train-movements')">Vasúti mozgások</button>
+      <button class="nav-button" mat-button (click)="navigatesToPage('tracking')">Áru nyomonkövetése</button>
+      <button class="nav-button" mat-button (click)="navigatesToPage('projekts')">Kiemelt projektek</button>
+    </div>
+  </div>
