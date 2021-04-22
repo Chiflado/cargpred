@@ -1,9 +1,22 @@
 <div class="starting-page">
   <div class="nav-menu">
+    <button class="nav-button nav-button-active" mat-button (click)="navigatesToPage('')">Kezdőlap</button>
     <button class="nav-button" mat-button (click)="navigatesToPage('planning')">Tervezés</button>
     <button class="nav-button" mat-button (click)="navigatesToPage('contracts')">Szerződéskötés</button>
     <button class="nav-button" mat-button (click)="navigatesToPage('movements')">Mozgások</button>
     <button class="nav-button" mat-button (click)="navigatesToPage('billing')">Számlázás</button>
     <button class="nav-button" mat-button (click)="navigatesToPage('controlling')">Kontrolling</button>
   </div>
+  <span class="starting-page-content">
+    <div class="info-text">
+      <h2>MEGBÍZHATÓ. HATÉKONY. GAZDASÁGOS</h2>
+      <span>
+        Az árút nyomon követő kapacitáskezelést biztosító,
+        költségcsökkentő szállítmányozási szoftver
+        vasutúti, szállítmányozási cégek-vállalatok,
+        illetve magánszemélyek számára,
+        hazai és a nemzetközi vasúti teherfuvarozásban.
+      </span>
+    </div>
+  </span>
 </div>

@@ -12,7 +12,8 @@ import {
   MatDatepickerModule,
   MatFormFieldModule,
   MatMenuModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatTableModule
 } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PlanningComponent } from './pages/planning/planning.component';
@@ -33,6 +34,7 @@ import { InvoiceControllingComponent } from './pages/controlling/invoice-control
 import { ProjektControllingComponent } from './pages/controlling/projekt-controlling/projekt-controlling.component';
 import { SapComponent } from './pages/billing/sap/sap.component';
 import { CustomInvoiceComponent } from './pages/billing/custom-invoice/custom-invoice.component';
+import { TableComponent } from './layout/table/table.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,8 @@ import { CustomInvoiceComponent } from './pages/billing/custom-invoice/custom-in
     InvoiceControllingComponent,
     ProjektControllingComponent,
     SapComponent,
-    CustomInvoiceComponent
+    CustomInvoiceComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -72,7 +75,8 @@ import { CustomInvoiceComponent } from './pages/billing/custom-invoice/custom-in
     MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

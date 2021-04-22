@@ -29,12 +29,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 100px);
+    padding: 16px;
 }
 
 .nav-menu {
     justify-content: space-around;
     display: flex;
-    padding: 20px;
+    padding-bottom: 16px;
+    width: 100%;
 }
 
 .nav-button {
@@ -140,4 +142,39 @@ button:hover {
     display: flex;
     justify-content: center;
     padding: 20px 0 0 0;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        margin-bottom: 16px;
+    }
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.info-text {
+    background: lightgray;
+    width: 490px;
+    padding: 24px 60px 24px 20px;
+    opacity: 0.8;
+    text-shadow: 1px 1px white;
+}
+
+.starting-page-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 80%;
 }

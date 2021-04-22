@@ -1,5 +1,19 @@
 {
   "remoteconfig": {
     "template": "remoteconfig.template.json"
+  },
+  "hosting": {
+    "public": "dist/CargPred",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
