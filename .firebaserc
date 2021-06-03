@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "cargpred"
+    "default": "cargpred",
+    "staging": "cargpred"
   }
 }
